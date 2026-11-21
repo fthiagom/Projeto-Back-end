@@ -2,6 +2,10 @@
 
 API REST desenvolvida em **Node.js** e **Express** com persistência em **MySQL** via **Sequelize**, autenticação com **JWT**, hash de senhas com **bcrypt** e testes automatizados com **Jest** e **Supertest**[cite: 1, 7].
 
+## Repositório
+
+* **URL do repositório:** `https://github.com/fthiagom/Projeto-Back-end.git`
+
 ## Tecnologias utilizadas
 
 * **Runtime / Framework:** Node.js, Express[cite: 1]
@@ -42,18 +46,24 @@ JWT_SECRET=sua_chave_secreta
 
 ## Como instalar e rodar
 
-1. **Instale as dependências:**
+1. **Clone o repositório:**
    ```bash
-   npm install
+   git clone [https://github.com/fthiagom/Projeto-Back-end.git](https://github.com/fthiagom/Projeto-Back-end.git)
+   cd Projeto-Back-end
    ```
 
-2. **Certifique-se de que o MySQL esteja rodando** e que o banco definido em `DB_NAME` exista.
+2. **Instale as dependências:**
+   ```bash
+   npm install --legacy-peer-deps
+   ```
 
-3. **Inicie o servidor da API:**
+3. **Certifique-se de que o MySQL esteja rodando** e que o banco definido em `DB_NAME` exista.
+
+4. **Inicie o servidor da API:**
    ```bash
    npm run server
    ```
-   *(Ou `npm start` para rodar com `node src/server.js`.)*
+   *(Ou `npm start` para iniciar com `node src/server.js`.)*
 
 ## Executando os testes
 
